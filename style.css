@@ -1,0 +1,64 @@
+/*
+Theme Name: FotoGenixTheme
+Text Domain: fotogenixtheme
+Version: 1.0
+Requires at least: 4.5.2
+Requires PHP: 5.2.4
+Description: An advanced photo gallery theme built from scratch as part of a course on Eduonix.com, courtesy of Brad Traversy of Traversy Media.
+Author: Fionn Ross
+Author URI: https://fionnrossonline.com/
+Theme URI: https://github.com/rossfion/fotogenixtheme/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+body {
+    background: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    color: #333;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(1);
+}
+
+header input {
+    margin-top: 15px;
+}
+
+.post {
+    padding: 20px;
+}
+
+.pic {
+    text-align: center;
+}
+
+.pic img {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
